@@ -12,7 +12,13 @@ class App extends Component {
     ]
   }
   swichNameHandler = () => {
-    console.log('Was Cliced');
+    // 
+    this.setState({persons: [
+      {name: "Peter", age: 29},
+      {name: "Alex" ,age:37},
+      {name: "Chris", age: 40}
+    ]
+  })
   }
   render () {
     return (
